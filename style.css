@@ -329,7 +329,7 @@ section .title::after {
   padding: 0;
   color: #f9f1e9;
   text-align: center;
-  top: 54%;
+  top: 60%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate(-50%, -50%, 0);
