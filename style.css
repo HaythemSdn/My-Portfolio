@@ -156,6 +156,7 @@ section {
   display: flex;
   justify-content: center;
   font-family: "Ubuntu", sans-serif;
+  padding: 20px;
 }
 .max-width {
   max-width: 1300px;
@@ -328,7 +329,7 @@ section .title::after {
   padding: 0;
   color: #f9f1e9;
   text-align: center;
-  top: 50%;
+  top: 54%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate(-50%, -50%, 0);
