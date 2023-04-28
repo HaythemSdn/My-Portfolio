@@ -737,7 +737,7 @@ footer span a:hover {
 }
 @media (max-width: 947px) {
    .intro{
-    top: 55%;
+    top: 50%;
    }
    ul.soc{
     margin-top: 50px;
