@@ -7,12 +7,15 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-.to-center{
+.click:hover{
+  display: block;
+}
+.to-center {
   margin-top: 25px;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
-.down{
+.down {
   width: 30px;
   height: 30px;
 }
@@ -170,11 +173,11 @@ section {
 footer {
   font-family: "Poppins", sans-serif;
 }
-.serv-content img{
+.serv-content img {
   width: 300px;
   height: 200px;
 }
-.serv-content span{
+.serv-content span {
   color: crimson;
   font-size: 20px;
 }
@@ -187,9 +190,9 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
-.contact .contact-content span{
+.contact .contact-content span {
   font-size: 20px;
-  font-weight:400;
+  font-weight: 400;
   margin: 5px 0;
   color: crimson;
 }
@@ -432,11 +435,9 @@ section .title::after {
 }
 .services .serv-content .card:hover {
   background: crimson;
-  
 }
-.services .serv-content .card:hover span{
+.services .serv-content .card:hover span {
   color: black;
-  
 }
 .services .serv-content .card .box {
   transition: all 0.3s ease;
@@ -544,7 +545,6 @@ section .title::after {
 .skills-content .right .github::before {
   width: 90%;
 }
-
 
 /* teams section styling */
 .teams .title::after {
@@ -733,15 +733,14 @@ footer span a:hover {
   .max-width {
     padding: 0 50px;
   }
-
 }
 @media (max-width: 947px) {
-   .intro{
+  .intro {
     top: 50%;
-   }
-   ul.soc{
+  }
+  ul.soc {
     margin-top: 100px;
-   }
+  }
   .menu-btn {
     display: block;
     z-index: 999;
