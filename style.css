@@ -541,6 +541,9 @@ section .title::after {
 .skills-content .right .Firebase::before {
   width: 40%;
 }
+.skills-content .right .github::before {
+  width: 90%;
+}
 
 
 /* teams section styling */
