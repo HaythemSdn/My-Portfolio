@@ -156,7 +156,6 @@ section {
   display: flex;
   justify-content: center;
   font-family: "Ubuntu", sans-serif;
-  padding: 20px;
 }
 .max-width {
   max-width: 1300px;
@@ -329,7 +328,7 @@ section .title::after {
   padding: 0;
   color: #f9f1e9;
   text-align: center;
-  top: 60%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate(-50%, -50%, 0);
@@ -734,9 +733,15 @@ footer span a:hover {
   .max-width {
     padding: 0 50px;
   }
+
 }
 @media (max-width: 947px) {
-
+   .intro{
+    top: 58%;
+   }
+   ul.soc{
+    margin-top: 200px;
+   }
   .menu-btn {
     display: block;
     z-index: 999;
