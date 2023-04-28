@@ -530,11 +530,18 @@ section .title::after {
   width: 90%;
 }
 .skills-content .right .python::before {
-  width: 40%;
+  width: 50%;
+}
+.skills-content .right .java::before {
+  width: 30%;
 }
 .skills-content .right .VueJs::before {
   width: 70%;
 }
+.skills-content .right .Firebase::before {
+  width: 40%;
+}
+
 
 /* teams section styling */
 .teams .title::after {
