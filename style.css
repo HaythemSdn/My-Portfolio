@@ -637,6 +637,9 @@ section .title::after {
 .skills-content .right .python::before {
   width: 70%;
 }
+.skills-content .right .flutter::before {
+  width: 75%;
+}
 .skills-content .right .java::before {
   width: 50%;
 }
