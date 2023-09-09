@@ -1,32 +1,18 @@
 $(document).ready(function () {
   var projects=[
     {
-      title:"Hangman Game",
-      image:"images/Hangman.jpeg",
-      link:"https://hangman-game-htmsdn.netlify.app",
-      desc:" is a guessing game ,the player guessing the word may, at any time, attempt to guess the whole word if the word is correct, the game is over and the guesser wins.",
-      tchlgs:["html","css","java-script","json"],
+      title:"EarthMeta",
+      image:"images/Earthmeta.png",
+      link:"earthmeta.ai",
+      desc:"EarthMeta is a web3 platform that allows users to buy and sell NFTs of the Earth’s places. I have worked on this project as a VueJS developer to integrate the front-end with the back-end (not completed).",
+      tchlgs:["VueJs","tailwind"],
     },
     {
-      title:"Memory Game",
-      image:"images/Memory-game.jpeg",
-      link:"https://memory-game-htmsdn.netlify.app",
-      desc:" is a common game played with a set of cards.Players turn two cards if the two cards are the same, then they keep them, otherwise they turn the cards face down again.",
-      tchlgs:["html","css","java-script","tailwind"],
-    },
-    {
-      title:"Quiz Game",
-      image:"images/quiz.jpeg",
-      link:"https://quiz-game-htm.netlify.app",
-      desc:" refers to a short test of HTML , CSS and JS, typically around 10 questions in length, with question formats often including multiple choice and fill in the blanks .'PC only'",
-      tchlgs:["html","css","java-script","json","tailwind"],
-    },
-    {
-      title:"Pig Game",
-      image:"images/pig.jpg",
-      link:"https://pig-game-htm.netlify.app",
-      desc:" is a simple dice game players take turns to roll a single die , adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.",
-      tchlgs:["html","css","java-script"],
+      title:"Alphabit Web Site",
+      image:"images/Alphabit.png",
+      link:"Alphabit.club",
+      desc:" As a dev member in Alphabit club , i have contributed in the development of the club website , and i have worked on the front-end part of the website using React and tailwind css",
+      tchlgs:["React","tailwind"],
     },
     {
       title:"Bankist",
@@ -43,13 +29,6 @@ $(document).ready(function () {
       tchlgs:["html","css","java-script"],
     },
     {
-      title:"DashDark",
-      image:"images/Dashboard.png",
-      link:"https://dashboard-darkmode-htmsdn.netlify.app",
-      desc:" it is a static Dashboard (just front-end ) in the dark-mode that shows statistics and information about a company ",
-      tchlgs:["vueJS","tailwind"],
-    },
-    {
       title:"Ecommerce-store",
       image:"images/Ecommerce-store .jpg",
       link:"https://ecommerce-store-htmsdn.netlify.app",
@@ -57,12 +36,47 @@ $(document).ready(function () {
       tchlgs:["vueJS","firebase","tailwind"],
     }, 
     {
+      title:"MyPortfolio",
+      image:"images/haythem.jpg",
+      link:"haythemsaidani.netlify.app",
+      desc:" is a simple portfolio that contains all the information about me , my projects ,my skills and my certificates . You can also contact me from it . ",
+      tchlgs:["html","css","java-script"],
+    },
+    {
       title:"Tabaki",
       image:"images/tabaki.png",
       link:"images/app-release.apk",
       desc:" is a restaurant marketplace App that allows clients to find a restaurant that fits them ,I have worked on this project as a project manager and mobile developer",
       tchlgs:["flutter","firebase","python"],
     }, 
+    // {
+    //   title:"Hangman Game",
+    //   image:"images/Hangman.jpeg",
+    //   link:"https://hangman-game-htmsdn.netlify.app",
+    //   desc:" is a guessing game ,the player guessing the word may, at any time, attempt to guess the whole word if the word is correct, the game is over and the guesser wins.",
+    //   tchlgs:["html","css","java-script","json"],
+    // },
+    // {
+    //   title:"Memory Game",
+    //   image:"images/Memory-game.jpeg",
+    //   link:"https://memory-game-htmsdn.netlify.app",
+    //   desc:" is a common game played with a set of cards.Players turn two cards if the two cards are the same, then they keep them, otherwise they turn the cards face down again.",
+    //   tchlgs:["html","css","java-script","tailwind"],
+    // },
+    // {
+    //   title:"Quiz Game",
+    //   image:"images/quiz.jpeg",
+    //   link:"https://quiz-game-htm.netlify.app",
+    //   desc:" refers to a short test of HTML , CSS and JS, typically around 10 questions in length, with question formats often including multiple choice and fill in the blanks .'PC only'",
+    //   tchlgs:["html","css","java-script","json","tailwind"],
+    // },
+    // {
+    //   title:"Pig Game",
+    //   image:"images/pig.jpg",
+    //   link:"https://pig-game-htm.netlify.app",
+    //   desc:" is a simple dice game players take turns to roll a single die , adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.",
+    //   tchlgs:["html","css","java-script"],
+    // },
   ]
   $(window).scroll(function () {
     // sticky navbar on scroll script
