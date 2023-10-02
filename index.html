@@ -74,7 +74,7 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="haythem.jpg" alt="">
+                    <img src="images/haythem.jpg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">I'm Haythem and I'm a <span class="typing-2"></span></div>
@@ -332,20 +332,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form onsubmit="sendEmail(); reset(); return false;">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" required id="Email">
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" required id="Subject">
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message.." required id="Body"></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
@@ -367,5 +367,22 @@
     <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
     <script src="script.js"></script>
 </body>
-
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+    function sendEmail(params) {
+        Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "htmdvlpr@gmail.com",
+    Password : "CA99D89498AD9B1CF06EFD277D55E8D367BB",
+    To : 'htmdvlpr@gmail.com',
+    From : "htmdvlpr@gmail.com",
+    ReplyTo: document.getElementById("Email").value,
+    Subject : document.getElementById("Subject").value,
+    Body : document.getElementById("Body").value,
+}).then(
+  message => alert(message)
+);
+    }
+</script>
 </html>

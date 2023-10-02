@@ -3,16 +3,23 @@ $(document).ready(function () {
     {
       title:"EarthMeta",
       image:"images/Earthmeta.png",
-      link:"earthmeta.ai",
-      desc:"EarthMeta is a web3 platform that allows users to buy and sell NFTs of the Earth’s places. I have worked on this project as a VueJS developer to integrate the front-end with the back-end (not completed).",
-      tchlgs:["VueJs","tailwind"],
+      link:"https://earthmeta.ai/",
+      desc:" EarthMeta is a web3 platform that allows users to buy and sell NFTs of the Earth’s places. I have worked on this project as a VueJS developer to integrate the front-end with the back-end (not completed).",
+      tchlgs:["vueJS","tailwind"],
     },
     {
       title:"Alphabit Web Site",
       image:"images/Alphabit.png",
-      link:"Alphabit.club",
+      link:"https://alphabit.club/",
       desc:" As a dev member in Alphabit club , i have contributed in the development of the club website , and i have worked on the front-end part of the website using React and tailwind css",
       tchlgs:["React","tailwind"],
+    },
+    {
+      title:"AMN Infos Ligne",
+      image:"images/Amn-infos.png",
+      link:"https://amn-infos-store.netlify.app",
+      desc:" is a electonical store made for a client to showcase his products and services with details , designed and developed by me .",
+      tchlgs:["vueJS","tailwind"],
     },
     {
       title:"Bankist",
@@ -70,13 +77,13 @@ $(document).ready(function () {
     //   desc:" refers to a short test of HTML , CSS and JS, typically around 10 questions in length, with question formats often including multiple choice and fill in the blanks .'PC only'",
     //   tchlgs:["html","css","java-script","json","tailwind"],
     // },
-    // {
-    //   title:"Pig Game",
-    //   image:"images/pig.jpg",
-    //   link:"https://pig-game-htm.netlify.app",
-    //   desc:" is a simple dice game players take turns to roll a single die , adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.",
-    //   tchlgs:["html","css","java-script"],
-    // },
+    {
+      title:"Pig Game",
+      image:"images/pig.jpg",
+      link:"https://pig-game-htm.netlify.app",
+      desc:" is a simple dice game players take turns to roll a single die , adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.",
+      tchlgs:["html","css","java-script"],
+    },
   ]
   $(window).scroll(function () {
     // sticky navbar on scroll script
