@@ -149,11 +149,13 @@ section {
   justify-content: center;
 }
 .img-div img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   margin-bottom: 10px;
-  border: crimson solid 10px;
+  border: crimson solid 5px;
+  object-fit: cover;
+  object-position: center;
 }
 .intro {
   display: flex;
@@ -631,7 +633,7 @@ section .title::after {
   background: crimson;
 }
 .skills-content .right .html::before {
-  width: 90%;
+  width: 95%;
 }
 .skills-content .right .sql::before {
   width: 60%;
@@ -645,9 +647,13 @@ section .title::after {
 .skills-content .right .python::before {
   width: 70%;
 }
-.skills-content .right .flutter::before {
+.skills-content .right .php::before {
   width: 75%;
 }
+.skills-content .right .Wordpress::before {
+  width: 90%;
+}
+
 .skills-content .right .React::before {
   width: 60%;
 }
