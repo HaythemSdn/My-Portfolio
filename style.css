@@ -658,7 +658,7 @@ section .title::after {
   width: 60%;
 }
 .skills-content .right .java::before {
-  width: 50%;
+  width: 70%;
 }
 .skills-content .right .VueJs::before {
   width: 85%;
